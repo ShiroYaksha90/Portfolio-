@@ -10,17 +10,17 @@ body {
 .flex-head {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   background-color: #3c3a39;
 }
 
-h1 {
+a {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
   color: #ffff;
+  text-decoration: unset;
 }
 
 .flex-head img {
@@ -28,6 +28,9 @@ h1 {
 }
 
 .head-elements {
+  width: 375px;
+  display: flex;
+  justify-content: space-between;
   margin: 20px 10px 5px 10px;
 }
 
@@ -76,11 +79,16 @@ h1 {
   color: #fff;
 }
 
+ul {
+  padding: 0%;
+  list-style: none;
+}
+
 .social {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0 24px 140px 24px;
-  width: 200px;
+  width: 160px;
   height: 20px;
 }
