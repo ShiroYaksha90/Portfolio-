@@ -2,6 +2,11 @@
   margin: 0%;
 }
 
+body {
+  width: 375px;
+  height: 650px;
+}
+
 .flex-head {
   display: flex;
   flex-direction: row;
@@ -25,6 +30,7 @@ h1 {
 .head-elements {
   margin: 20px 10px 5px 10px;
 }
+
 .back {
   background-color: #1c1a19;
   background-image: url("./images/imag.png");
