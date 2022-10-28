@@ -88,7 +88,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 24px 140px 24px;
+  margin: 5px 24px 140px 24px;
   width: 160px;
   height: 20px;
 }
