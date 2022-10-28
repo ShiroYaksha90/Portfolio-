@@ -41,5 +41,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-None.
-git 
+This project is [MIT](https://github.com/ShiroYaksha90/Mobile-first/blob/main/LICENSE.md) licensed.
