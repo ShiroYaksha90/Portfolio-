@@ -1,0 +1,27 @@
+* {
+  margin: 0%;
+}
+
+.flex-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3c3a39;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffff;
+}
+
+.flex-head img {
+  padding-top: 6px;
+}
+
+.head-elements {
+  margin: 20px 10px 5px 10px;
+}
