@@ -126,12 +126,10 @@ ul {
 }
 
 #line {
-  width: 327px;
+  width: 322px;
   height: 0;
-  border: 1px solid #212121;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  border: 0.5px solid #212121;
+  margin-top: 24px;
 }
 
 /* .box {
@@ -410,7 +408,7 @@ ul {
   color: #fff;
 }
 
-#pr-btn {
+.pr-btn {
   width: 327px;
   height: 48px;
   margin-top: 22px;
@@ -437,10 +435,9 @@ ul {
 
 .aboutme {
   width: 375px;
-
-  /* height: 1901px; */
   left: 0;
   top: 4137px;
+  margin-top: 120px;
 
   /* Theme 3 / Neutral 1 */
 
@@ -510,7 +507,7 @@ ul {
   flex-grow: 0;
 }
 
-#about-btn {
+.about-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -702,6 +699,7 @@ height: 48px; */
   /* or 194% */
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -725,6 +723,7 @@ height: 48px; */
   /* or 194% */
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -748,6 +747,7 @@ height: 48px; */
   /* or 194% */
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -771,6 +771,7 @@ height: 48px; */
   /* or 194% */
 
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -1031,3 +1032,22 @@ height: 48px; */
 .skill > ul > li {
   margin: 12px 32px 20px 32px;
 }
+
+button:disabled {
+  background: #f4f1f0;
+}
+
+button:enabled {
+  background: #f55800;
+}
+
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #ff6b00;
+}
+
+/* .about-flex, .multi-post button:hover {
+  background: #f55800;
+  color: #f4f5f7;
+} */
