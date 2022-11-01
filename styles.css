@@ -40,6 +40,7 @@ a {
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
+  width: 375px;
 }
 
 .contents {
@@ -131,10 +132,6 @@ ul {
   border: 0.5px solid #212121;
   margin-top: 24px;
 }
-
-/* .box {
-  border: 3px solid red;
-} */
 
 .multi-post {
   display: flex;
@@ -256,22 +253,6 @@ ul {
   flex-grow: 0;
 }
 
-/* button {
-  width: 132px;
-  height: 48px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  border: 0;
-} */
-
 .btn {
   display: flex;
   flex-direction: row;
@@ -297,14 +278,7 @@ ul {
 }
 
 .work {
-  width: calc(375px - 48px);
-  margin-top: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  width: 375px;
   background: url(./images/profesional.png);
 }
 
@@ -1038,13 +1012,14 @@ height: 48px; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 375px;
 }
 
 .cont label {
   display: none;
 }
 
-#form-para {
+#form-head {
   width: 327px;
   height: 216px;
   margin: 120px 24px 0 24px;
@@ -1135,6 +1110,7 @@ height: 48px; */
   flex: none;
   order: 3;
   flex-grow: 0;
+  /* cursor: pointer; */
 }
 
 #line3 {
@@ -1175,4 +1151,5 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #ff6b00;
+  cursor: pointer;
 }
