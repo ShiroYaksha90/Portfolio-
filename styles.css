@@ -842,8 +842,6 @@ button:hover {
   }
 
   .box1 {
-    /* Primary Text */
-
     width: 566px;
     height: 160px;
     margin: 0;
@@ -852,23 +850,13 @@ button:hover {
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    
-    /* or 113% */
-    
-    
     color: #f55800;
-    
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .box2 {
-    /* Supporting Text */
-
     width: 566px;
     height: 24px;
     margin: 0;
@@ -877,16 +865,9 @@ button:hover {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    
-    /* or 138% */
-    
     display: flex;
     align-items: center;
-    
     color: #fff;
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -901,18 +882,10 @@ button:hover {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    /* or 160% */
-    
-    /* Neutrals/N20 */
-    
     color: #f4f5f7;
-    
-    /* Inside auto layout */
-    
     flex: none;
     order: 2;
     flex-grow: 0;
-
   }
 
   .projects {
