@@ -152,10 +152,6 @@ ul {
   margin-top: 24px;
 }
 
-/* .box {
-  border: 3px solid red;
-} */
-
 .multi-post {
   display: flex;
   flex-direction: column;
@@ -774,21 +770,6 @@ button:hover {
   border-radius: 10px;
 }
 
-/* button:disabled {
-  background: #f4f1f0;
-}
-
-button:enabled {
-  background: #f55800;
-}
-
-button:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #ff6b00;
-  cursor: pointer;
-} */
-
 /* //////////// Desktop Version\\\\\\\\\\\\\\\\\ */
 
 @media screen and (min-width: 768px) {
@@ -842,7 +823,7 @@ button:hover {
 
   .social {
     flex-direction: column;
-    margin: 279px 87px 241px 32px;
+    margin: 279px 81px 351px 36px;
     gap: 20px;
     width: 18px;
     height: 160px;
@@ -864,6 +845,7 @@ button:hover {
     font-size: 72px;
     width: 466px;
     height: 160px;
+    margin: 0 46px 0 0;
     line-height: 81.5px;
     font-family: Crete Round, sans-serif;
     font-style: normal;
@@ -876,6 +858,7 @@ button:hover {
     font-size: 32px;
     width: 466px;
     height: 24px;
+    margin: 0 46px 0 0;
     line-height: 44px;
   }
 
@@ -884,6 +867,7 @@ button:hover {
     font-size: 20px;
     width: 466px;
     height: 123px;
+    margin: 0 46px 0 0;
     line-height: 32px;
   }
 
