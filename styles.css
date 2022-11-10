@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
 *,
 *::before,
@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -58,7 +58,7 @@ a {
 .back {
   width: 375px;
   background-color: #1c1a19;
-  background-image: url("./images/imag.png");
+  background-image: url('./images/imag.png');
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@ a {
 }
 
 .box1 {
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -82,7 +82,7 @@ a {
 }
 
 .box2 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -92,7 +92,7 @@ a {
 }
 
 .box3 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -133,7 +133,7 @@ ul {
 .pro-head h1 {
   width: 327px;
   height: 83px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -166,7 +166,7 @@ ul {
 .multi-post h2 {
   width: 327px;
   height: 36px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -183,7 +183,7 @@ ul {
 .multi-paragraph {
   width: 327px;
   height: 147px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -206,7 +206,7 @@ ul {
 }
 
 .lang-li {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -287,7 +287,7 @@ ul {
   flex-grow: 0;
   width: 132px;
   height: 48px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -333,7 +333,7 @@ ul {
   margin-right: 16px;
   width: 295px;
   height: 81px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -350,7 +350,7 @@ ul {
   margin-right: 16px;
   width: 295px;
   height: 87px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -380,7 +380,7 @@ ul {
 #codehtml {
   width: 32px;
   height: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -394,7 +394,7 @@ ul {
 #codebootstrap {
   width: 71px;
   height: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -408,7 +408,7 @@ ul {
 #coderuby {
   width: 37px;
   height: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -430,7 +430,7 @@ ul {
   /* Theme 3 / Primary 1 */
 
   background: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -474,7 +474,7 @@ ul {
   width: 327px;
   height: 79px;
   margin-top: 120px;
-  font-family: "Crete Round", sans-serif;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -502,7 +502,7 @@ ul {
 
   /* Theme 3 / Body Reguler 2 */
 
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -535,7 +535,7 @@ ul {
 height: 48px; */
   width: 161px;
   height: 48px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -594,7 +594,7 @@ height: 48px; */
 }
 
 .bottom-headers {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -603,7 +603,7 @@ height: 48px; */
 }
 
 .languges-list {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -657,7 +657,7 @@ button:hover {
   width: 327px;
   height: 216px;
   margin: 120px 24px 0 24px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -681,7 +681,7 @@ button:hover {
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -698,7 +698,7 @@ button:hover {
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -733,7 +733,7 @@ button:hover {
   height: 48px;
   margin-top: 24px;
   background: #ff6b00;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -920,9 +920,14 @@ button:hover {
     gap: 24px;
   }
 
-  .multi-post img {
+  .multi-post > img {
     width: 684px;
+  }
 
+  .multi-post > img:hover {
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+    z-index: 1;
     /* height: 448px; */
   }
 
@@ -1020,7 +1025,7 @@ button:hover {
     height: 81px;
     display: block;
     margin-top: 155px;
-    font-family: "Crete Round", sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -1038,7 +1043,7 @@ button:hover {
 
     width: 337px;
     height: 72px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -1063,7 +1068,7 @@ button:hover {
 
     width: 32px;
     height: 20px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1087,7 +1092,7 @@ button:hover {
 
     width: 71px;
     height: 20px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1111,7 +1116,7 @@ button:hover {
 
     width: 37px;
     height: 20px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1188,7 +1193,7 @@ button:hover {
   #about-title {
     width: 566px;
     height: 78px;
-    font-family: "Crete Round", sans-serif;
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
@@ -1210,7 +1215,7 @@ button:hover {
 
     width: 566px;
     height: 148px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -1268,7 +1273,7 @@ button:hover {
   }
 
   .languges-list {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -1304,7 +1309,7 @@ button:hover {
 
     width: 455px;
     height: 256px;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -1355,7 +1360,7 @@ button:hover {
     right: 16px;
     top: calc(50% - 18px / 2);
     margin-top: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1376,7 +1381,7 @@ button:hover {
     left: 16px;
     right: 16px;
     top: calc(50% - 18px / 2);
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1421,7 +1426,7 @@ button:hover {
     flex: none;
     order: 3;
     flex-grow: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
