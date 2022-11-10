@@ -631,6 +631,7 @@ button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
   color: #ff6b00;
+  cursor: pointer;
 }
 
 .cont {
@@ -928,6 +929,7 @@ button:hover {
     transition: 1s;
     transform: scale(1.1, 1.1);
     z-index: 1;
+
     /* height: 448px; */
   }
 
@@ -985,6 +987,12 @@ button:hover {
     grid-template-rows: 435px 435px;
     gap: 37px 24px;
     margin: 24px 131px 130px 130px;
+  }
+
+  .work-flex:hover {
+    transition: 1s;
+    transform: scale(1.1, 1.1);
+    z-index: 2;
   }
 
   .item1 > h1 {
