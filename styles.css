@@ -760,17 +760,7 @@ button:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 24px 99px 0 97px;
-}
-
-#line4 {
-  width: 134px;
-  height: 5px;
-  border: none;
-  margin: 13px 120px 8px 121px;
-  bottom: 8px;
-  background: #0d151e;
-  border-radius: 10px;
+  margin: 24px 99px 23px 97px;
 }
 
 /* //////////// Desktop Version\\\\\\\\\\\\\\\\\ */
@@ -830,6 +820,12 @@ button:hover {
     gap: 20px;
     width: 18px;
     height: 160px;
+  }
+
+  .social > li:hover {
+    transition: 200ms;
+    transform: scale(2, 2);
+    z-index: 2;
   }
 
   .desktop-contants {
@@ -1463,7 +1459,9 @@ button:hover {
     margin: 25px 630px 26px 631px;
   }
 
-  #line4 {
-    display: none;
+  .social-foot > li:hover {
+    transition: 200ms;
+    transform: scale(2, 2);
+    z-index: 2;
   }
 }
