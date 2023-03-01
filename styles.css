@@ -318,8 +318,6 @@ ul {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 10;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
@@ -328,7 +326,8 @@ ul {
 }
 
 .popdisplay {
-  width: 95%;
+  width: 290px;
+  margin: 20px 0 20px 26px;
   display: flex;
   flex-direction: column;
   background: white;
@@ -457,14 +456,12 @@ ul {
 
 .popcontainer.active {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   position: fixed;
   background-attachment: fixed;
   top: 0;
   left: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: 10;
   border: 1px solid #ebecf0;
   box-shadow: 0 48px 48px rgb(37 47 137 / 8%);
