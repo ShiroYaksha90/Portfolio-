@@ -13,12 +13,12 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 
 /*  popup  */
 const mainProject = {
-  headTitle: 'Multi-Post Stories',
-  headImg: 'Img-Placeholder.svg.png',
-  headDesc: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-  headLanguages: ['css', 'html', 'bootstrap', 'Ruby'],
-  liveLink: 'https://shiroyaksha90.github.io/',
-  projLink: 'https://github.com/ShiroYaksha90/Mobile-first',
+  headTitle: 'Awesom Books',
+  headImg: 'Add.PNG',
+  headDesc: 'This is an education project that allow users to add desired books to the list and also delete books. It makes use of local storage to preserve the data on the web browser. Each item added (ie..book) is created dynamically using JavaScript ES6 syntax.',
+  headLanguages: ['css', 'html', 'Javascript'],
+  liveLink: 'https://shiroyaksha90.github.io/Awesome-books-ES6/',
+  projLink: 'https://github.com/ShiroYaksha90/Awesome-books-ES6',
 };
 const headTitle = document.querySelector('.multi-desktop .multi');
 const headImg = document.queryCommandIndeterm('image-poster');

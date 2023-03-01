@@ -243,13 +243,12 @@ ul {
 
 .multi-paragraph {
   width: 327px;
-  height: 147px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 12px;
+  margin: 12px 0;
   color: #091e42;
   flex: none;
   order: 1;
@@ -443,8 +442,7 @@ ul {
 .popbtn {
   display: flex;
   justify-content: space-evenly;
-  width: 40%;
-  height: 5vh;
+  padding: 2%;
   border: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -1092,7 +1090,6 @@ button:hover {
 
   .multi-paragraph {
     width: 448px;
-    height: 140px;
     font-size: 20px;
     line-height: 28px;
     text-align: left;
@@ -1104,7 +1101,6 @@ button:hover {
     width: 75%;
     grid-template-columns: auto auto auto auto;
     padding-right: 40px;
-    margin-bottom: 24px;
     gap: 12px;
     list-style: none;
     order: 2;
@@ -1637,8 +1633,7 @@ button:hover {
   .popbtn {
     display: flex;
     justify-content: space-evenly;
-    width: 40%;
-    height: 5vh;
+    padding: 2%;
     border: 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
