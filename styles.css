@@ -45,10 +45,6 @@ body {
   position: fixed;
 }
 
-.nav-elements-container > :last-child {
-  display: none;
-}
-
 .nav-item > a {
   padding: 5px 10px;
   border-radius: 10px;
@@ -895,10 +891,6 @@ button:hover {
 
   .nav-elements-container {
     align-items: center;
-  }
-
-  .nav-elements-container > :last-child {
-    display: block;
   }
 
   .introduction-content {

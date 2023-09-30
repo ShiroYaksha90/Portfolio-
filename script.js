@@ -176,15 +176,6 @@ closePopUp.addEventListener('click', () => {
 window.addEventListener('DOMContentLoaded', () => {
   popUp();
 });
-// openModel.addEventListener('click', () => {
-//   popDesktop.classList.toggle('active');
-// });
-// for (let i = 0; i < openCards.length; i += 1) {
-//   openCards[i].addEventListener('click', () => {
-//     popDesktop.classList.toggle('active');
-//   });
-// }
-
 
 /*  Form validation     */
 const form = document.querySelector('#form');
@@ -239,16 +230,25 @@ form.addEventListener('input', () => {
   localStorage.setItem('data', JSON.stringify(object));
 });
 
-// const storgeForm = document.querySelector('.form');
-// storgeForm.addEventListener('input', () => {
-//   const data = {
-//     name: document.querySelector('#name').value,
-//     email: document.querySelector('#email').value,
-//     message: document.querySelector('#story').value,
-//   };
-//   localStorage.setItem('storgeForm', JSON.stringify(data));
-// });
-// const formObject = JSON.parse(localStorage.getItem('storgeForm'));
-// document.querySelector('#name').value = formObject.name;
-// document.querySelector('#email').value = formObject.email;
-// document.querySelector('#story').value = formObject.message;
+//reset form input
+
+const clearInput = () => {
+  userName.value = '';
+  email.value = '';
+  message.value = '';
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  clearInput();
+})
+//download resume
+
+const download = document.querySelector('.about-btn');
+
+download.addEventListener('click', () => {
+  const link = document.createElement('a');
+  link.href = 'https://docs.google.com/document/d/16mz9lVdK0cL9mOBPwxSg_4d1tfLqpJmFgrHSXznwXMI/export?format=pdf';
+  link.download = 'Basim-Aljazaeri-resume.pdf';
+  link.click();
+
+})
