@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -38,6 +42,26 @@ body {
   font-size: xx-large;
   text-decoration: none;
   color: #fff;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow:
+      0 0 10px #fff5e1,
+      0 0 20px #ff6b00,
+      0 0 40px #ff6b02,
+      0 0 50px #ff6b03;
+  }
+
+  to {
+    text-shadow:
+      0 0 30px #fff5e1,
+      0 0 40px #ff6b00,
+      0 0 50px #ff6b01,
+      0 0 60px #ff6b02,
+      0 0 70px #ff6b03;
+  }
 }
 
 .main-header {

@@ -3,7 +3,7 @@ const mainProject = {
   id: '7',
   headTitle: 'Bookstore',
   headImg: './images/BookStore.png',
-  headDesc: 'Bookstore is a web app that allows users to add,remove and display books. The app is built with React and Redux. It also uses an external API to store and retrieve data.',
+  headDesc: 'Bookstore is a web app that allows users to add, remove, and display books. The app is built with React and Redux. It also uses an external API to store and retrieve data.',
   headLanguages: ['React', 'Redux', 'CSS', 'HTML'],
   liveLink: 'https://book-store-jigy.onrender.com/',
   projLink: 'https://github.com/ShiroYaksha90/bookstore-react',
@@ -27,7 +27,7 @@ const procards = [
   {
     cardId: '1',
     cardTitle: 'My World',
-    cardDesc: "This project is about building a mobile web application to compare metrics from defferent countries. This project utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions.",
+    cardDesc: "This project is about building a mobile web application to compare metrics from different countries. This project utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions.",
     cardLang: ['React', 'Redux', 'Css', 'Html'],
     cardImage: 'images/main-project.PNG',
     cardbackgroundstyle: 'background:url(./images/main-project.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
@@ -57,7 +57,7 @@ const procards = [
   {
     cardId: '4',
     cardTitle: 'Space Hub',
-    cardDesc: "Space Hub is a webapp built with React and Redux, it fetches data from SpaceX API and Displays it.",
+    cardDesc: "Space Hub is a web app built with React and Redux, it fetches data from SpaceX API and Displays it.",
     cardLang: ['React', 'Redux', 'Css', 'Html'],
     cardImage: 'images/space-hub.PNG',
     cardbackgroundstyle: 'background:url(./images/space-hub.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
@@ -77,7 +77,7 @@ const procards = [
   {
     cardId: '6',
     cardTitle: 'Go movies',
-    cardDesc: "Go movies is a simple web app that fetches aswell as store data in multiple apis and display them it uses modular architechture aswell as webpack.",
+    cardDesc: "Go Movies is a simple web app that fetches and stores data in multiple APIs and displays them, it uses modular architecture as well as webpack.",
     cardLang: ['Javascript', 'Webpack', 'Css'],
     cardImage: 'images/go-movie.PNG',
     cardbackgroundstyle: 'background:url(./images/go-movie.PNG); background-size: 100% 85%;background-repeat: no-repeat;',
@@ -124,8 +124,8 @@ mainProjectBtn.addEventListener('click', () => {
   <div class="btnpara">
     <p class="poppara">${mainProject.headDesc}</p>
     <div class="btndis">
-      <button class="popbtn"><a href="${mainProject.liveLink}"> See Live </a><img src="./images/see live.png" alt=""></button>
-      <button class="popbtn"><a href="${mainProject.projLink}"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
+      <button class="popbtn"><a href="${mainProject.liveLink}" target="_blank"> See Live </a><img src="./images/see live.png" alt=""></button>
+      <button class="popbtn"><a href="${mainProject.projLink}" target="_blank"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
   </div>
   </div>
   </div>
@@ -159,8 +159,8 @@ cardsBtn.forEach((btn) => {
     <div class="btnpara">
       <p class="poppara">${item.cardDesc}</p>
       <div class="btndis">
-        <button class="popbtn"><a href="${item.liveLink}"> See Live </a><img src="./images/see live.png" alt=""></button>
-        <button class="popbtn"><a href="${item.projLink}"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
+        <button class="popbtn"><a href="${item.liveLink}" target="_blank"> See Live </a><img src="./images/see live.png" alt=""></button>
+        <button class="popbtn"><a href="${item.projLink}" target="_blank"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
     </div>
     </div>
     </div>`
