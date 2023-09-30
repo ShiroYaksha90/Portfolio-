@@ -2,7 +2,7 @@
 const mainProject = {
   id: '7',
   headTitle: 'Bookstore',
-  headImg: './images/BookStore.PNG',
+  headImg: './images/BookStore.png',
   headDesc: 'Bookstore is a web app that allows users to add,remove and display books. The app is built with React and Redux. It also uses an external API to store and retrieve data.',
   headLanguages: ['React', 'Redux', 'CSS', 'HTML'],
   liveLink: 'https://book-store-jigy.onrender.com/',
