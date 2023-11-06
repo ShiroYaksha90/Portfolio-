@@ -27,62 +27,62 @@ const procards = [
   {
     cardId: '1',
     cardTitle: 'My World',
-    cardDesc: "This project is about building a mobile web application to compare metrics from different countries. This project utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions.",
+    cardDesc: 'This project is about building a mobile web application to compare metrics from different countries. This project utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions.',
     cardLang: ['React', 'Redux', 'Css', 'Html'],
     cardImage: 'images/main-project.PNG',
     cardbackgroundstyle: 'background:url(./images/main-project.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
     liveLink: 'https://my-world-sems.onrender.com/',
-    projLink: 'https://github.com/ShiroYaksha90/react-redux-capstone'
+    projLink: 'https://github.com/ShiroYaksha90/react-redux-capstone',
   },
   {
     cardId: '2',
     cardTitle: 'Cashup',
-    cardDesc: "Cashup is a web-based budget app built using Ruby on Rails and PostgreSQL. With Cashup, users can effortlessly track their expenses, gaining full control over their finances.",
+    cardDesc: 'Cashup is a web-based budget app built using Ruby on Rails and PostgreSQL. With Cashup, users can effortlessly track their expenses, gaining full control over their finances.',
     cardLang: ['RoR', 'Rspec', 'Postgres'],
     cardImage: 'images/cashup.PNG',
     cardbackgroundstyle: 'background:url(./images/cashup.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
     liveLink: 'https://cashup.onrender.com/',
-    projLink: 'https://github.com/ShiroYaksha90/cashup'
+    projLink: 'https://github.com/ShiroYaksha90/cashup',
   },
   {
     cardId: '3',
     cardTitle: 'Leaderboard',
-    cardDesc: "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.",
+    cardDesc: 'The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.',
     cardLang: ['Javascript', 'API', 'Webpack'],
     cardImage: 'images/leaderboard.PNG',
     cardbackgroundstyle: 'background:url(./images/leaderboard.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
     liveLink: 'https://shiroyaksha90.github.io/Leaderboard/',
-    projLink: 'https://github.com/ShiroYaksha90/Leaderboard'
+    projLink: 'https://github.com/ShiroYaksha90/Leaderboard',
   },
   {
     cardId: '4',
     cardTitle: 'Space Hub',
-    cardDesc: "Space Hub is a web app built with React and Redux, it fetches data from SpaceX API and Displays it.",
+    cardDesc: 'Space Hub is a web app built with React and Redux, it fetches data from SpaceX API and Displays it.',
     cardLang: ['React', 'Redux', 'Css', 'Html'],
     cardImage: 'images/space-hub.PNG',
     cardbackgroundstyle: 'background:url(./images/space-hub.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
     liveLink: 'https://space-hub-osb.netlify.app/',
-    projLink: 'https://github.com/ShiroYaksha90/space-hub-traveler'
+    projLink: 'https://github.com/ShiroYaksha90/space-hub-traveler',
   },
   {
     cardId: '5',
     cardTitle: 'Math Magician',
-    cardDesc: "This is a Single Page App (SPA) that allows users to: - Make simple calculations - Read a random quote",
+    cardDesc: 'This is a Single Page App (SPA) that allows users to: - Make simple calculations - Read a random quote',
     cardLang: ['React', 'API', 'Css'],
     cardImage: 'images/math-magician.PNG',
     cardbackgroundstyle: 'background:url(./images/math-magician.PNG);background-size: 100% 85%;background-repeat: no-repeat;',
     liveLink: 'https://basim-math-magician.onrender.com/',
-    projLink: 'https://github.com/ShiroYaksha90/math-magician'
+    projLink: 'https://github.com/ShiroYaksha90/math-magician',
   },
   {
     cardId: '6',
     cardTitle: 'Go movies',
-    cardDesc: "Go Movies is a simple web app that fetches and stores data in multiple APIs and displays them, it uses modular architecture as well as webpack.",
+    cardDesc: 'Go Movies is a simple web app that fetches and stores data in multiple APIs and displays them, it uses modular architecture as well as webpack.',
     cardLang: ['Javascript', 'Webpack', 'Css'],
     cardImage: 'images/go-movie.PNG',
     cardbackgroundstyle: 'background:url(./images/go-movie.PNG); background-size: 100% 85%;background-repeat: no-repeat;',
     liveLink: 'https://dheerajsachdeva.github.io/capstone2/dist/',
-    projLink: 'https://github.com/ShiroYaksha90/javascript-capstone'
+    projLink: 'https://github.com/ShiroYaksha90/javascript-capstone',
   },
 ];
 const workCards = document.querySelector('.work-grid');
@@ -105,9 +105,9 @@ See project
 }
 const popUp = () => {
   const popContainer = document.querySelector('.popcontainer');
-const mainProjectBtn = document.querySelector('.main-project-btn');
-mainProjectBtn.addEventListener('click', () => {
-  popContainer.innerHTML = `<div class="popdisplay">
+  const mainProjectBtn = document.querySelector('.main-project-btn');
+  mainProjectBtn.addEventListener('click', () => {
+    popContainer.innerHTML = `<div class="popdisplay">
   <div class="poptitle">
     <h1 class="pophead">${mainProject.headTitle}</h1>
     <button  class="closebtn">&times;</button>
@@ -130,14 +130,14 @@ mainProjectBtn.addEventListener('click', () => {
   </div>
   </div>
 
-</div>`
-popContainer.classList.toggle('active');
-const closePopUp = document.querySelector('.closebtn');
-closePopUp.addEventListener('click', () => {
-  popContainer.classList.remove('active');
-});
-});
-}
+</div>`;
+    popContainer.classList.toggle('active');
+    const closePopUp = document.querySelector('.closebtn');
+    closePopUp.addEventListener('click', () => {
+      popContainer.classList.remove('active');
+    });
+  });
+};
 const cardsBtn = document.querySelectorAll('.pop');
 cardsBtn.forEach((btn) => {
   btn.addEventListener('click', (e) => {
@@ -163,15 +163,14 @@ cardsBtn.forEach((btn) => {
         <button class="popbtn"><a href="${item.projLink}" target="_blank"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
     </div>
     </div>
-    </div>`
-    );
+    </div>`);
     popContainer.classList.toggle('active');
-const closePopUp = document.querySelector('.closebtn');
-closePopUp.addEventListener('click', () => {
-  popContainer.classList.remove('active');
+    const closePopUp = document.querySelector('.closebtn');
+    closePopUp.addEventListener('click', () => {
+      popContainer.classList.remove('active');
+    });
+  });
 });
-  })
-})
 
 window.addEventListener('DOMContentLoaded', () => {
   popUp();
@@ -204,12 +203,11 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-
 /* ////////// localstorage\\\\\\\\\ */
 
 window.addEventListener('DOMContentLoaded', () => {
-  const userInput = JSON.parse(localStorage.getItem('data'))
-  if (userInput !== null){
+  const userInput = JSON.parse(localStorage.getItem('data'));
+  if (userInput !== null) {
     userName.value = userInput.nameID;
     email.value = userInput.mail;
     message.value = userInput.msg;
@@ -218,7 +216,7 @@ window.addEventListener('DOMContentLoaded', () => {
     email.value = '';
     message.value = '';
   }
-})
+});
 
 // Add to localStorage
 form.addEventListener('input', () => {
@@ -230,18 +228,18 @@ form.addEventListener('input', () => {
   localStorage.setItem('data', JSON.stringify(object));
 });
 
-//reset form input
+// reset form input
 
 const clearInput = () => {
   userName.value = '';
   email.value = '';
   message.value = '';
-}
+};
 
 window.addEventListener('DOMContentLoaded', () => {
   clearInput();
-})
-//download resume
+});
+// download resume
 
 const download = document.querySelector('.about-btn');
 
@@ -250,5 +248,4 @@ download.addEventListener('click', () => {
   link.href = 'https://docs.google.com/document/d/16mz9lVdK0cL9mOBPwxSg_4d1tfLqpJmFgrHSXznwXMI/export?format=pdf';
   link.download = 'Basim-Aljazaeri-resume.pdf';
   link.click();
-
-})
+});
