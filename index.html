@@ -1,148 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <link rel="icon" href="./images/favicon.PNG" type="image/x-icon">
-          <title>Basim's Portfolio</title>
-          <link rel="stylesheet" href="./styles.css">
-          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-          <link href="https://db.onlinewebfonts.com/c/95b505026728bca7b241bd68c6b5bd4e?family=Old+London" rel="stylesheet">
-          <link href=
-          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
-                    rel="stylesheet">
-              <script src=
-          "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
-              </script>
-              <script src=
-          "https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js">
-              </script>
-      </head>
-<body>
-    <section class="introduction">
-        <header class="main-header">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container-fluid header-elements-container">
-                  <a class="logo" href="#">B</a>
-                  <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" alt="hamurger icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-elements-container">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#portfolio">Portifolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
-        <div class="introduction-content">
-            <div class="social-container"><ul class="social">
-                <li><a href="https://github.com/ShiroYaksha90" target="_blank"><img src="./images/Github.png" alt="Github icon"></a></li>
-                <li><a href="https://www.linkedin.com/in/basim-aljazaeri-603682201/" target="_blank"><img src="./images/Linkedin.png" alt="Linkedin icon"></a></li>
-                <li><a href="https://wellfound.com/profile/edit/overview" target="_blank"><img src="./images/Peace.png" alt="Angellist icon"></a></li>
-                <li><a href="https://twitter.com/Basim_AlJazaeri" target="_blank"><img src="./images/Twitter.png" alt="Twitter icon"></a></li>
-                <li><a href="https://medium.com/@aljazaeribasim" target="_blank"><img src="./images/Gmail.png" alt="Meduim icon"></a></li> 
-            </ul></div>
-            <div class="text-container">
-                <h1 class="box1">Hey There. I’m Basim</h1>
-                <h2 class="box2">I’m a Software Developer</h2>
-                <p class="box3">I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
-            </div>
-        </div>
-    </section>
-    <section class="work" id="portfolio">
-        <div class="work-header">
-            <h2>My Recent Work</h2>
-            <hr>
-        </div>
-        <div class=" main-project">
-           <div class="img-placeholder">
-            <img src="" class="image-poster" alt="BookStore image">
-           </div>
-            <div class="multi-desktop">
-            <h2 class="main-project-title">
-            </h2>
-            <p class="main-project-paragraph">
-            </p>
-            <div class="stack">
-            <ul class="stack-unordered-list">
-              
-            </ul>
-          </div>
-          <button class="main-project-btn" type="button">
-            See Project
-          </button>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-BNMCNEGM5X"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        </div>
-        </div>
-          <div class="work-grid">
-        </div>
-        <div class="popcontainer">
-          <div class="popdisplay">
-            <div class="poptitle">
-              <h1 class="pophead">My World</h1>
-              <button  class="closebtn">&times;</button>
-            </div>
-            <div class="poptech">
-              <ul class="popcode">
-                <li class="poplang">
-                  React
+      gtag("config", "G-BNMCNEGM5X");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/favicon.PNG" type="image/x-icon" />
+    <title>Basim's Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/95b505026728bca7b241bd68c6b5bd4e?family=Old+London"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <section class="introduction">
+      <header class="main-header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid header-elements-container">
+            <a class="logo" href="#">B</a>
+            <button
+              class="navbar-toggler toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon" alt="hamurger icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul
+                class="navbar-nav me-auto mb-2 mb-lg-0 nav-elements-container"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#portfolio"
+                    >Portifolio</a
+                  >
                 </li>
-                <li class="poplang">
-                  Redux
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#about"
+                    >About</a
+                  >
                 </li>
-                <li class="poplang">             
-                  Css
-                </li>
-                <li class="poplang">             
-                  Html
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#contact"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
-          
-            
-            <div class="popcontent">
-            <img id="popimg" src="./images/BookStore.png" alt="">
-            <div class="btnpara">
-              <p class="poppara">This project is about building a mobile web application to compare metrics from defferent countries. This project utilizes an API to retrieve information about countries and continents, which is then displayed through the use of React functions. The project aims to provide an easy-to-use and interactive interface for users to explore geographical data.</p>
-              <div class="btndis">
-                <button class="popbtn"><a href="https://shiroyaksha90.github.io/Awesome-books-ES6/"> See Live </a><img src="./images/see live.png" alt=""></button>
-                <button class="popbtn"><a href="https://github.com/ShiroYaksha90/Awesome-books-ES6"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
-            </div>
-            </div>
-            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="introduction-content">
+        <div class="social-container">
+          <ul class="social">
+            <li>
+              <a href="https://github.com/ShiroYaksha90" target="_blank"
+                ><img src="./images/Github.png" alt="Github icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/basim-aljazaeri-603682201/"
+                target="_blank"
+                ><img src="./images/Linkedin.png" alt="Linkedin icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://wellfound.com/profile/edit/overview"
+                target="_blank"
+                ><img src="./images/Peace.png" alt="Angellist icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Basim_AlJazaeri" target="_blank"
+                ><img src="./images/Twitter.png" alt="Twitter icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@aljazaeribasim" target="_blank"
+                ><img src="./images/Gmail.png" alt="Meduim icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="text-container">
+          <h1 class="box1">Hey There. I’m Basim</h1>
+          <h2 class="box2">I’m a Software Developer</h2>
+          <p class="box3">
+            I can help you build a product, feature or website Look through some
+            of my work and experience! If you like what you see and have a
+            project you need coded, don’t hesitate to contact me.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="portfolio">
+      <div class="work-header">
+        <h2>My Recent Work</h2>
+        <hr />
+      </div>
+      <div class="main-project">
+        <div class="img-placeholder">
+          <img src="" class="image-poster" alt="BookStore image" />
+        </div>
+        <div class="multi-desktop">
+          <h2 class="main-project-title"></h2>
+          <p class="main-project-paragraph"></p>
+          <div class="stack">
+            <ul class="stack-unordered-list"></ul>
+          </div>
+          <button class="main-project-btn" type="button">See Project</button>
+        </div>
+      </div>
+      <div class="work-grid"></div>
+      <div class="popcontainer">
+        <div class="popdisplay">
+          <div class="poptitle">
+            <h1 class="pophead">My World</h1>
+            <button class="closebtn">&times;</button>
+          </div>
+          <div class="poptech">
+            <ul class="popcode">
+              <li class="poplang">React</li>
+              <li class="poplang">Redux</li>
+              <li class="poplang">Css</li>
+              <li class="poplang">Html</li>
+            </ul>
+          </div>
 
+          <div class="popcontent">
+            <img id="popimg" src="./images/BookStore.png" alt="" />
+            <div class="btnpara">
+              <p class="poppara">
+                This project is about building a mobile web application to
+                compare metrics from defferent countries. This project utilizes
+                an API to retrieve information about countries and continents,
+                which is then displayed through the use of React functions. The
+                project aims to provide an easy-to-use and interactive interface
+                for users to explore geographical data.
+              </p>
+              <div class="btndis">
+                <button class="popbtn">
+                  <a href="https://shiroyaksha90.github.io/Awesome-books-ES6/">
+                    See Live </a
+                  ><img src="./images/see live.png" alt="" />
+                </button>
+                <button class="popbtn">
+                  <a href="https://github.com/ShiroYaksha90/Awesome-books-ES6">
+                    See Source </a
+                  ><img src="./images/gitbtn.png" alt="" />
+                </button>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
     </section>
     <section class="aboutme" id="about">
       <div class="about-flex">
-        <h1 id="about-title">
-          About me
-        </h1>
+        <h1 id="about-title">About me</h1>
         <p id="about-para">
-          Hello! My name is Basim and I enjoy creating things that live on the internet. My interest in web development started back in 2022 when I enrolled 
-          at Microverse, a remote coding school where I learned the foundations of programming, honed my problem-solving skills, and gained hands-on 
-          experience in various programming languages and development tools.
-          This provided me with a strong background in building scalable web
-          applications for mid-sized companies and made me proficient in all aspects of the software
-          development lifecycle and skilled in end-to-end project management, from
-          development to delivery.
+          Hello! My name is Basim and I enjoy creating things that live on the
+          internet. My interest in web development started back in 2022 when I
+          enrolled at Microverse, a remote coding school where I learned the
+          foundations of programming, honed my problem-solving skills, and
+          gained hands-on experience in various programming languages and
+          development tools. This provided me with a strong background in
+          building scalable web applications for mid-sized companies and made me
+          proficient in all aspects of the software development lifecycle and
+          skilled in end-to-end project management, from development to
+          delivery.
         </p>
-        <button class="about-btn"  type="button">
-          Get My Resume
-        </button>
+        <button class="about-btn" type="button">Get My Resume</button>
       </div>
-      <hr id="line2">
+      <hr id="line2" />
       <ul class="bottom">
         <li class="languages">
           Language
@@ -152,7 +215,7 @@
             <li>HTML</li>
             <li>CSS</li>
           </ul>
-        </li>  
+        </li>
         <li class="frameworks">
           Frameworks
           <ul class="languges-list">
@@ -177,45 +240,95 @@
     </section>
     <section class="cont" id="contact">
       <div class="form-container">
-            <h1 id="form-head">I'm always interested in hearing about new projects, 
-              so if you'd like to chat please get in touch.
-      </h1>
-      <div class="form-cont">
-        <form class="form" id="form" action="https://formspree.io/f/mzbwkbey" method="post">
-          <div>
-            <label for="name">Name</label>
-            <input class="inp"  type="text" id="name" name="name" required
-            minlength="4" maxlength="30" size="10" placeholder="Full name">
-          </div>
-          <hr class="hr-form">
-          <div>
-            <label for="email">Email</label>
-            <input class="inp" type="email" id="email"
-            size="30" required placeholder="Email address">
-          </div>
-          <hr class="hr-form">
-          <span id="span"></span>
-          <textarea class="inp" id="msg" name="story" required spellcheck="false" maxlength="500" placeholder="Write me something..."></textarea>
-          <button class="form-btn" type="submit">
-            Get in touch
-          </button>
-        </form>
-      </div>
-  
-     </div>
-     <hr id="line3">
-     <footer>
-             <div>
-               <ul class="social-foot">
-                  <li><a href="https://github.com/ShiroYaksha90" target="_blank"><img src="./images/git.png" alt="Gthub icon"></a></li>
-                  <li><a href="https://www.linkedin.com/in/basim-aljazaeri-603682201/" target="_blank"><img src="./images/link.png" alt="Linkedin icon"></a></li>
-                  <li><a href="https://wellfound.com/profile/edit/overview" target="_blank"><img src="./images/angelist 1.png" alt="Angellist icon" ></a></li>
-                  <li><a href="https://twitter.com/Basim_AlJazaeri" target="_blank"><img src="./images/tweet.png" alt="Twitter icon"></a></li>
-                  <li><a href="https://medium.com/@aljazaeribasim" target="_blank"><img src="./images/mail.png" alt="Meduim icon"></a></li>
-                </ul>
+        <h1 id="form-head">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h1>
+        <div class="form-cont">
+          <form
+            class="form"
+            id="form"
+            action="https://formspree.io/f/mzbwkbey"
+            method="post"
+          >
+            <div>
+              <label for="name">Name</label>
+              <input
+                class="inp"
+                type="text"
+                id="name"
+                name="name"
+                required
+                minlength="4"
+                maxlength="30"
+                size="10"
+                placeholder="Full name"
+              />
             </div>
-    </footer>
-      </section>
+            <hr class="hr-form" />
+            <div>
+              <label for="email">Email</label>
+              <input
+                class="inp"
+                type="email"
+                id="email"
+                size="30"
+                required
+                placeholder="Email address"
+              />
+            </div>
+            <hr class="hr-form" />
+            <span id="span"></span>
+            <textarea
+              class="inp"
+              id="msg"
+              name="story"
+              required
+              spellcheck="false"
+              maxlength="500"
+              placeholder="Write me something..."
+            ></textarea>
+            <button class="form-btn" type="submit">Get in touch</button>
+          </form>
+        </div>
+      </div>
+      <hr id="line3" />
+      <footer>
+        <div>
+          <ul class="social-foot">
+            <li>
+              <a href="https://github.com/ShiroYaksha90" target="_blank"
+                ><img src="./images/git.png" alt="Gthub icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/basim-aljazaeri-603682201/"
+                target="_blank"
+                ><img src="./images/link.png" alt="Linkedin icon"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://wellfound.com/profile/edit/overview"
+                target="_blank"
+                ><img src="./images/angelist 1.png" alt="Angellist icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Basim_AlJazaeri" target="_blank"
+                ><img src="./images/tweet.png" alt="Twitter icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@aljazaeribasim" target="_blank"
+                ><img src="./images/mail.png" alt="Meduim icon"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
