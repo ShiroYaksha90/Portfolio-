@@ -83,7 +83,42 @@ body {
   text-decoration: none;
 }
 
-.popbtn:hover > a , .popbtn:hover > i {
+.social > li > a {
+  text-decoration: none;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.closebtn > i {
+  color: #172b4d;
+}
+
+.popbtn > i {
+  color: #fff;
+}
+
+.social > li > a > i {
+  color: #fff;
+  font-size: x-large;
+}
+
+.social-footer > li > a {
+  text-decoration: none;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: #646363db;
+  font-weight: bolder;
+}
+
+.social-footer > li > a > i {
+  color: #646363db;
+  font-size: x-large;
+}
+
+.popbtn:hover > a,
+.popbtn:hover > i {
   color: #f55800;
 }
 
@@ -193,19 +228,6 @@ body {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
 }
-
-.social > li > a {
-  text-decoration: none;
-  font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
-  color: #fff;
-  font-weight: bolder;
-  }
-
-  .social > li > a > i {
-    color: #fff;
-    font-size: x-large;
-  }
 
 .social > li:hover {
   transition: 200ms;
@@ -428,10 +450,6 @@ button:hover {
   background: inherit;
 }
 
-.closebtn > i {
-  color: #172b4d;
-}
-
 .closebtn:hover {
   border: 0;
   color: #67798e;
@@ -491,11 +509,6 @@ button:hover {
   align-items: center;
   text-align: center;
 }
-
-.popbtn > i {
-  color: #fff;
-}
-
 
 .aboutme {
   margin-top: 20%;
@@ -736,19 +749,6 @@ button:hover {
   align-items: center;
 }
 
-.social-footer > li > a {
-  text-decoration: none;
-  font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
-  color: #646363db;
-  font-weight: bolder;
-  }
-
-  .social-footer > li > a > i {
-    color: #646363db;
-    font-size: x-large;
-  }
-
 /* ///////////////////////////////  MEDIA QUERIES  /////////////////////////////// */
 
 @media (min-width: 576px) {
@@ -867,11 +867,11 @@ button:hover {
     gap: 1em;
   }
 
-.social > li > a {
-  text-decoration: none;
-  font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
-  color: #fff;
+  .social > li > a {
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
   }
 
   .social > li > a > i {
