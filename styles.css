@@ -83,6 +83,10 @@ body {
   text-decoration: none;
 }
 
+.popbtn:hover > a , .popbtn:hover > i {
+  color: #f55800;
+}
+
 .nav-item > a:hover {
   background: #f55800;
   color: #050801;
@@ -190,6 +194,19 @@ body {
   background: rgba(255, 255, 255, 0.24);
 }
 
+.social > li > a {
+  text-decoration: none;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
+  font-weight: bolder;
+  }
+
+  .social > li > a > i {
+    color: #fff;
+    font-size: x-large;
+  }
+
 .social > li:hover {
   transition: 200ms;
   transform: scale(2, 2);
@@ -201,11 +218,6 @@ body {
   height: 85%;
   margin: 7% 5%;
   box-shadow: 3px 3px 20px 1px #202020;
-}
-
-.social > li > a > img {
-  width: 90%;
-  height: auto;
 }
 
 .work {
@@ -416,6 +428,10 @@ button:hover {
   background: inherit;
 }
 
+.closebtn > i {
+  color: #172b4d;
+}
+
 .closebtn:hover {
   border: 0;
   color: #67798e;
@@ -475,6 +491,11 @@ button:hover {
   align-items: center;
   text-align: center;
 }
+
+.popbtn > i {
+  color: #fff;
+}
+
 
 .aboutme {
   margin-top: 20%;
@@ -707,13 +728,26 @@ button:hover {
   background: #dfe1e6;
 }
 
-.social-foot {
+.social-footer {
   display: flex;
   flex-direction: row;
   padding: 0;
   gap: 1em;
   align-items: center;
 }
+
+.social-footer > li > a {
+  text-decoration: none;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: #646363db;
+  font-weight: bolder;
+  }
+
+  .social-footer > li > a > i {
+    color: #646363db;
+    font-size: x-large;
+  }
 
 /* ///////////////////////////////  MEDIA QUERIES  /////////////////////////////// */
 
@@ -833,12 +867,16 @@ button:hover {
     gap: 1em;
   }
 
-  .img-placeholder > img {
-    width: 80%;
+.social > li > a {
+  text-decoration: none;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fff;
   }
 
-  .social > li > a > img {
-    width: 25px;
+  .social > li > a > i {
+    color: #fff;
+    font-size: x-large;
   }
 
   .text-container {
@@ -1166,7 +1204,15 @@ button:hover {
     flex-direction: column;
   }
 
-  .social-foot > li:hover {
+  .social-footer > li > a {
+    font-size: xx-large;
+  }
+
+  .social-footer > li > a > i {
+    font-size: xx-large;
+  }
+
+  .social-footer > li:hover {
     transition: 200ms;
     transform: scale(2, 2);
     z-index: 2;
