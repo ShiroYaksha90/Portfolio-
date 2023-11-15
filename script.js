@@ -110,7 +110,7 @@ const popUp = () => {
     popContainer.innerHTML = `<div class="popdisplay">
   <div class="poptitle">
     <h1 class="pophead">${mainProject.headTitle}</h1>
-    <button  class="closebtn">&times;</button>
+    <button  class="closebtn"><i class="bi bi-x"></i></button>
   </div>
   <div class="poptech">
     <ul class="popcode">
@@ -124,8 +124,8 @@ const popUp = () => {
   <div class="btnpara">
     <p class="poppara">${mainProject.headDesc}</p>
     <div class="btndis">
-      <button class="popbtn"><a href="${mainProject.liveLink}" target="_blank"> See Live </a><img src="./images/see live.png" alt=""></button>
-      <button class="popbtn"><a href="${mainProject.projLink}" target="_blank"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
+      <button class="popbtn"><a href="${mainProject.liveLink}" target="_blank"> See Live </a><i class="bi bi-box-arrow-up-right"></i></button>
+      <button class="popbtn"><a href="${mainProject.projLink}" target="_blank"> See Source </a><i class="bi bi-github"></i></button>
   </div>
   </div>
   </div>
@@ -147,7 +147,7 @@ cardsBtn.forEach((btn) => {
     popContainer.innerHTML = targerCard.map((item) => `<div class="popdisplay">
     <div class="poptitle">
       <h1 class="pophead">${item.cardTitle}</h1>
-      <button  class="closebtn">&times;</button>
+      <button  class="closebtn"><i class="bi bi-x"></i></button>
     </div>
     <div class="poptech">
       <ul class="popcode">
@@ -159,8 +159,8 @@ cardsBtn.forEach((btn) => {
     <div class="btnpara">
       <p class="poppara">${item.cardDesc}</p>
       <div class="btndis">
-        <button class="popbtn"><a href="${item.liveLink}" target="_blank"> See Live </a><img src="./images/see live.png" alt=""></button>
-        <button class="popbtn"><a href="${item.projLink}" target="_blank"> See Source </a><img src="./images/gitbtn.png" alt=""></button>
+        <button class="popbtn"><a href="${item.liveLink}" target="_blank"> See Live </a><i class="bi bi-box-arrow-up-right"></i></button>
+        <button class="popbtn"><a href="${item.projLink}" target="_blank"> See Source </a><i class="bi bi-github"></i></button>
     </div>
     </div>
     </div>`);
