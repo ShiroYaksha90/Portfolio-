@@ -107,20 +107,20 @@ const popUp = () => {
   const popContainer = document.querySelector('.popcontainer');
   const mainProjectBtn = document.querySelector('.main-project-btn');
   mainProjectBtn.addEventListener('click', () => {
-    popContainer.innerHTML = `<div class="popdisplay">
+    popContainer.innerHTML = `<div class="popdisplay border border-warning rounded-1 border-1 shadow-lg mt-3 d-flex flex-column gap-3 p-2 bg-white">
   <div class="poptitle">
     <h1 class="pophead">${mainProject.headTitle}</h1>
     <button  class="closebtn"><i class="bi bi-x"></i></button>
   </div>
-  <div class="poptech">
-    <ul class="popcode">
+  <div class="container-fluid">
+    <ul class="d-flex flex-wrap gap-1 ps-0">
       ${mainProject.headLanguages.map((lang) => `<li class="poplang">${lang}</li>`).join('')}
     </ul>
   </div>
 
   
   <div class="popcontent">
-  <img id="popimg" src="${mainProject.headImg}" alt="Main project Image">
+  <img src="${mainProject.headImg}" class="border border-warning border-2 rounded-1 border-opacity-50 w-100" alt="Main project Image">
   <div class="btnpara">
     <p class="poppara">${mainProject.headDesc}</p>
     <div class="btndis">
@@ -144,18 +144,18 @@ cardsBtn.forEach((btn) => {
     const cardId = e.target.dataset.id;
     const targerCard = procards.filter((item) => item.cardId === cardId);
     const popContainer = document.querySelector('.popcontainer');
-    popContainer.innerHTML = targerCard.map((item) => `<div class="popdisplay">
+    popContainer.innerHTML = targerCard.map((item) => `<div class="popdisplay border border-warning rounded-1 border-1 shadow-lg mt-3 d-flex flex-column gap-3 p-2 bg-white">
     <div class="poptitle">
       <h1 class="pophead">${item.cardTitle}</h1>
       <button  class="closebtn"><i class="bi bi-x"></i></button>
     </div>
-    <div class="poptech">
-      <ul class="popcode">
+    <div class="container-fluid">
+      <ul class="d-flex flex-wrap gap-1 ps-0">
         ${item.cardLang.map((lang) => `<li class="poplang">${lang}</li>`).join('')}
       </ul>
     </div>
     <div class="popcontent">
-    <img id="popimg" src="${item.cardImage}" alt="Main project Image">
+    <img src="${item.cardImage}" class="border border-warning border-2 rounded-1 border-opacity-50 w-100" alt="Main project Image">
     <div class="btnpara">
       <p class="poppara">${item.cardDesc}</p>
       <div class="btndis">
