@@ -237,8 +237,6 @@ body {
 
 .img-placeholder > img {
   width: 90%;
-  height: 85%;
-  margin: 7% 5%;
   box-shadow: 3px 3px 20px 1px #202020;
 }
 
@@ -422,12 +420,6 @@ button:hover {
 
 .popdisplay {
   width: 85%;
-  margin: 4% 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-  background: white;
-  padding: 12px;
 }
 
 .poptitle {
@@ -456,24 +448,11 @@ button:hover {
   cursor: pointer;
 }
 
-.poptech {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-}
-
 .poplang {
   font-family: 'Poppins', sans-serif;
   border: 1px solid #3c3a39;
   color: #3c3a39;
   padding: 5px 8px;
-}
-
-.popcode {
-  display: flex;
-  align-items: center;
-  padding: 0;
-  gap: 7px;
 }
 
 .popcontent {
@@ -916,11 +895,6 @@ button:hover {
     justify-content: start;
   }
 
-  #popimg {
-    width: 60%;
-    max-height: unset;
-  }
-
   .btnpara {
     display: flex;
     flex-direction: column;
@@ -975,8 +949,6 @@ button:hover {
 
   .img-placeholder {
     align-self: center;
-    width: 100%;
-    height: 8%;
   }
 
   .work-title {
@@ -1073,10 +1045,6 @@ button:hover {
     align-items: flex-start;
   }
 
-  .img-placeholder {
-    width: 85%;
-  }
-
   .multi-desktop {
     width: 80%;
     display: flex;
@@ -1149,7 +1117,7 @@ button:hover {
   }
 
   #about-para {
-    width: 55%;
+    width: 50%;
     font-size: 1.1em;
     margin-top: 0;
     text-align: justify;
