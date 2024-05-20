@@ -899,6 +899,14 @@ button:hover {
     width: 80%;
   }
 
+  .popcontent > img {
+    width: 70% !important;
+  }
+
+  .popbtn > a {
+    font-size: x-small;
+  }
+
   .about-flex {
     padding: 5% 5% 20%;
   }
@@ -956,6 +964,10 @@ button:hover {
 
   .work-paragraph {
     font-size: 0.9em;
+  }
+
+  .popbtn > a {
+    font-size: large;
   }
 
   .col-lg-3 {
