@@ -1,35 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      defer
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-BNMCNEGM5X"
-    ></script>
-    <script defer>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-BNMCNEGM5X");
-    </script>
-    <!-- Google Tag Manager -->
-    <script defer>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-N259DF6K");
-    </script>
-    <!-- End Google Tag Manager -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
@@ -54,25 +25,15 @@
       rel="stylesheet"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       defer
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
       defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
     ></script>
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-N259DF6K"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <section class="introduction">
       <header class="main-header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -103,12 +64,20 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#about" aria-label="about section"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#about"
+                    aria-label="about section"
                     >About</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#contact" aria-label="contact section"
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#contact"
+                    aria-label="contact section"
                     >Contact</a
                   >
                 </li>
@@ -176,7 +145,11 @@
       </div>
       <div class="main-project">
         <div class="img-placeholder">
-          <img src="" class="image-poster my-lg-5 my-4" alt="BookStore image" />
+          <img
+            alt="BookStore image"
+            src="./images/BookStore.png"
+            class="image-poster my-lg-5 my-4"
+          />
         </div>
         <div class="multi-desktop">
           <h2 class="main-project-title"></h2>
@@ -184,7 +157,9 @@
           <div class="stack">
             <ul class="stack-unordered-list"></ul>
           </div>
-          <button class="main-project-btn w-50" type="button">See Project</button>
+          <button class="main-project-btn w-50" type="button">
+            See Project
+          </button>
         </div>
       </div>
       <div class="work-grid"></div>
@@ -216,12 +191,18 @@
               </p>
               <div class="btndis">
                 <button class="popbtn" type="button">
-                  <a href="https://shiroyaksha90.github.io/Awesome-books-ES6/" aria-label="Project website">
+                  <a
+                    href="https://shiroyaksha90.github.io/Awesome-books-ES6/"
+                    aria-label="Project website"
+                  >
                     See Live </a
                   ><i class="bi bi-box-arrow-up-right"></i>
                 </button>
                 <button class="popbtn" type="button">
-                  <a href="https://github.com/ShiroYaksha90/Awesome-books-ES6" aria-label="Project github repo">
+                  <a
+                    href="https://github.com/ShiroYaksha90/Awesome-books-ES6"
+                    aria-label="Project github repo"
+                  >
                     See Source </a
                   ><i class="bi bi-github"></i>
                 </button>
@@ -306,6 +287,7 @@
                 maxlength="30"
                 size="10"
                 placeholder="Full name"
+                autocomplete="name"
               />
             </div>
             <hr class="hr-form" />
@@ -318,6 +300,7 @@
                 size="30"
                 required
                 placeholder="Email address"
+                autocomplete="email"
               />
             </div>
             <hr class="hr-form" />
@@ -330,6 +313,7 @@
               spellcheck="false"
               maxlength="500"
               placeholder="Write me something..."
+              autocomplete="off"
             ></textarea>
             <button class="form-btn" type="submit">Get in touch</button>
           </form>
@@ -379,6 +363,6 @@
         </div>
       </footer>
     </section>
-    <script src="./script.js" defer></script>
+    <script defer src="./script.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap");
 
 *,
 *::before,
@@ -47,20 +47,13 @@ body {
 
 @keyframes glow {
   from {
-    text-shadow:
-      0 0 10px #fff5e1,
-      0 0 20px #ff6b00,
-      0 0 40px #ff6b02,
+    text-shadow: 0 0 10px #fff5e1, 0 0 20px #ff6b00, 0 0 40px #ff6b02,
       0 0 50px #ff6b03;
   }
 
   to {
-    text-shadow:
-      0 0 30px #fff5e1,
-      0 0 40px #ff6b00,
-      0 0 50px #ff6b01,
-      0 0 60px #ff6b02,
-      0 0 70px #ff6b03;
+    text-shadow: 0 0 30px #fff5e1, 0 0 40px #ff6b00, 0 0 50px #ff6b01,
+      0 0 60px #ff6b02, 0 0 70px #ff6b03;
   }
 }
 
@@ -86,8 +79,8 @@ body {
 .social > li > a {
   text-decoration: none;
   font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
-  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  color: #f55800;
   font-weight: bolder;
 }
 
@@ -100,14 +93,22 @@ body {
 }
 
 .social > li > a > i {
-  color: #fff;
+  color: #f55800;
   font-size: x-large;
+}
+
+.social > li > a > i:hover {
+  color: #fff;
+}
+
+.social > li > a:hover {
+  color: #fff;
 }
 
 .social-footer > li > a {
   text-decoration: none;
   font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: #646363db;
   font-weight: bolder;
 }
@@ -125,7 +126,8 @@ body {
 .nav-item > a:hover {
   background: #f55800;
   color: #050801;
-  box-shadow: 0 0 5px #f55800, 0 0 25px #f55800, 0 0 50px #f55800, 0 0 200px #f55800;
+  box-shadow: 0 0 5px #f55800, 0 0 25px #f55800, 0 0 50px #f55800,
+    0 0 200px #f55800;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
@@ -133,7 +135,8 @@ body {
   background: #f55800;
   border-radius: 10px;
   color: #050801;
-  box-shadow: 0 0 5px #f55800, 0 0 25px #f55800, 0 0 50px #f55800, 0 0 200px #f55800;
+  box-shadow: 0 0 5px #f55800, 0 0 25px #f55800, 0 0 50px #f55800,
+    0 0 200px #f55800;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
@@ -151,7 +154,7 @@ body {
 }
 
 .stack li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   border: 1px solid #8993a4;
@@ -173,14 +176,14 @@ body {
 }
 
 .box1 {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2.7em;
   color: #ff6b00;
 }
 
 .box2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #fff5e1;
   overflow: hidden;
@@ -189,7 +192,7 @@ body {
 }
 
 .box3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 0.9em;
   color: #fff;
@@ -198,21 +201,14 @@ body {
 @keyframes typing {
   from {
     width: 0%;
-    text-shadow:
-      0 0 1px #fff5e1,
-      0 0 2px #fff5e1,
-      0 0 7px #ff6b02,
+    text-shadow: 0 0 1px #fff5e1, 0 0 2px #fff5e1, 0 0 7px #ff6b02,
       0 0 8px #ff6b03;
   }
 
   to {
     width: 100%;
-    text-shadow:
-      0 0 4px #fff5e1,
-      0 0 5px #ff6b00,
-      0 0 6px #ff6b01,
-      0 0 7px #ff6b02,
-      0 0 8px #ff6b03;
+    text-shadow: 0 0 4px #fff5e1, 0 0 5px #ff6b00, 0 0 6px #ff6b01,
+      0 0 7px #ff6b02, 0 0 8px #ff6b03;
   }
 }
 
@@ -221,7 +217,7 @@ body {
 }
 
 .code li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 1em;
   color: #fff;
@@ -283,7 +279,7 @@ body {
 }
 
 .main-project-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 2.7em;
   margin-top: 1em;
@@ -291,7 +287,7 @@ body {
 }
 
 .main-project-paragraph {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   margin: 2%;
   color: #091e42;
@@ -306,7 +302,7 @@ body {
 }
 
 .main-project-btn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 1em;
   padding: 12px;
@@ -351,7 +347,7 @@ button:hover {
 }
 
 .work-title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 32px;
   margin: 40% 5% 0;
@@ -359,7 +355,7 @@ button:hover {
 }
 
 .work-paragraph {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin: 0 5%;
@@ -379,7 +375,7 @@ button:hover {
   padding: 12px;
   border: 0;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   text-align: center;
@@ -430,7 +426,7 @@ button:hover {
 }
 
 .pophead {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 2em;
   color: #172b4d;
 }
@@ -449,7 +445,7 @@ button:hover {
 }
 
 .poplang {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 1px solid #3c3a39;
   color: #3c3a39;
   padding: 5px 8px;
@@ -463,7 +459,7 @@ button:hover {
 }
 
 .poppara {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 25px;
   text-align: start;
   color: #344563;
@@ -481,7 +477,7 @@ button:hover {
   gap: 5px;
   padding: 2%;
   border: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -503,7 +499,7 @@ button:hover {
 
 #about-title {
   margin-top: 15%;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-weight: 400;
   font-size: 4em;
   letter-spacing: 1.7px;
@@ -512,13 +508,13 @@ button:hover {
 
 #about-para {
   margin-top: 5%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   color: #f4f5f7;
 }
 
 .about-btn {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   align-self: baseline;
   margin-top: 2em;
   padding: 12px;
@@ -552,12 +548,12 @@ button:hover {
   margin: 0 0 1em 0;
   position: relative;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.4em;
   font-weight: 700;
 
   &::after {
-    content: '';
+    content: "";
     height: 0.5em;
     width: 0.5em;
     background: #ff6b00;
@@ -573,12 +569,12 @@ button:hover {
   margin: 0 0 1em 0;
   position: relative;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.7em;
   font-weight: 700;
 
   &::after {
-    content: '';
+    content: "";
     height: 0.6em;
     width: 0.6em;
     background: #ff6b00;
@@ -593,13 +589,13 @@ button:hover {
   margin: 0 0 1em 0;
   position: relative;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.7em;
   font-weight: 700;
   text-align: center;
 
   &::after {
-    content: '';
+    content: "";
     height: 0.6em;
     width: 0.6em;
     background: #ff6b00;
@@ -612,7 +608,7 @@ button:hover {
 }
 
 .languges-list {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 0.5em;
   color: #fff;
@@ -649,7 +645,7 @@ button:hover {
 
 #form-head {
   margin: 10% 10% 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 2em;
   text-align: center;
@@ -666,7 +662,7 @@ button:hover {
 
 #name {
   margin-top: 73px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -675,7 +671,7 @@ button:hover {
 
 #email {
   margin-top: 39px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -706,7 +702,7 @@ button:hover {
   padding: 12px;
   border: none;
   margin-top: 10%;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.03em;
@@ -846,18 +842,6 @@ button:hover {
     gap: 1em;
   }
 
-  .social > li > a {
-    text-decoration: none;
-    font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
-    color: #fff;
-  }
-
-  .social > li > a > i {
-    color: #fff;
-    font-size: x-large;
-  }
-
   .text-container {
     padding: 0 10%;
   }
@@ -899,6 +883,15 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 80%;
+  }
+
+  .popcontent > img {
+    width: 70% !important;
+  }
+
+  .popbtn > a {
+    font-size: x-small;
   }
 
   .about-flex {
@@ -958,6 +951,10 @@ button:hover {
 
   .work-paragraph {
     font-size: 0.9em;
+  }
+
+  .popbtn > a {
+    font-size: large;
   }
 
   .col-lg-3 {
@@ -1149,7 +1146,7 @@ button:hover {
 
   #form-head {
     width: 40%;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     text-align: left;
     font-size: 2.7em;
