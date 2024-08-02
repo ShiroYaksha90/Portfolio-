@@ -24,31 +24,28 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mobile-first] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[Mobile-first]** is My Portfolio to show my web development skills.
+**[Portfolio]** is My Portfolio to show my web development skills.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML
 - CSS
+- Bootstrap
 - Javascript
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
-- [Live Demo Link](https://shiroyaksha90.github.io/)
+- [Live Link](https://shiroyaksha90.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 ### Prerequisites
 
@@ -57,20 +54,16 @@ In order to run this project you need:
 - Web Browser
 - Code Editor: [visual Studio code](https://code.visualstudio.com/)
 
-
 ### Setup
 
 To get a local copy up and running follow these simple example steps:
+
 1. Clone this repository or download the Zip folder:
-**``git clone repo [<link>](https://github.com/habasm/HelloMicroverse.git)``**
+   `git clone repo` [Portfolio](https://github.com/ShiroYaksha90/ShiroYaksha90.github.io)
 1. Navigate to the location of the folder in your machine:
-**``you@your-Pc-name:~$ cd <folder>``**
-
-
-
+   **`you@your-Pc-name:~$ cd Portfolio`**
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 Basim Aljazaeri
 
@@ -79,7 +72,6 @@ To get a local copy up and running follow these simple example steps:
 - LinkedIn: [Basim Aljazaeri](https://www.linkedin.com/in/basim-aljazaeri-603682201/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -87,7 +79,6 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -102,12 +93,9 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/ShiroYaksha90/Mobile-first/blob/main/LICENSE.md) licensed.
+This project is [MIT](https://github.com/ShiroYaksha90/ShiroYaksha90.github.io/blob/development/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
