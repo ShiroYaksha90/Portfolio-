@@ -989,7 +989,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 4em;
-    padding: 15% 0% 25%;
+    padding: 15% 0%;
   }
 
   .social {
